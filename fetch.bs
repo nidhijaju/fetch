@@ -7810,7 +7810,7 @@ method steps are:
   <ol>
    <li><p>If <var>locallyAborted</var> is true, terminate these substeps.
 
-   <li><p>If <var>response</var> is an <a for=response>aborted network error</a>, then <a>abort fetch</a>
+   <li><p>If <var>response</var> is an <a>aborted network error</a>, then <a>abort fetch</a>
    with <var>p</var>, <var>request</var>, and <var>responseObject</var>, and terminate these
    substeps.
 
